@@ -4,6 +4,8 @@ mysql solution for all leetcode database questions
 ## question
 ### 197. Rising Temperature
 
-```select w1.id from Weather w1, Weather w2
+```
+select w1.id from Weather w1, Weather w2
 
-where datediff(w1.recordDate, w2.recordDate) = 1  and w1.temperature > w2.temperature```
+where datediff(w1.recordDate, w2.recordDate) = 1  and w1.temperature > w2.temperature
+```
